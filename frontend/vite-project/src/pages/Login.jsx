@@ -28,7 +28,7 @@ const Login = () => {
       return handleError("name, email and password are required");
     }
     try {
-      const url = "http://localhost:5000/auth/login";
+      const url = "https://login-signup-back.vercel.app/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
