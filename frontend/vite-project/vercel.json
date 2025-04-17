@@ -1,6 +1,15 @@
-"rewrites": [
-  {
-    "source": "/(.*)",
-    "destination": "/index.html"
-  }
-]
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend/vite-project/package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
