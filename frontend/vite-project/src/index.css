@@ -1,0 +1,211 @@
+/* === RESET AND BASE STYLES === */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #465a56, #a1ade2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* === SIGNUP CONTAINER === */
+.signup-container {
+  width: 100%;
+  max-width: 420px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* === HEADING === */
+.signup-form h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* === LABELS === */
+.signup-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* === INPUT FIELDS === */
+.signup-form input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.signup-form input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.4);
+}
+
+/* === SUBMIT BUTTON === */
+.signup-form button {
+  width: 100%;
+  background-color: #4a90e2;
+  color: #ffffff;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #357ab8;
+}
+
+/* === FOOTER TEXT === */
+.signup-form span {
+  display: block;
+  text-align: center;
+  margin-top: 1.2rem;
+  color: #000000;
+  font-size: 0.95rem;
+}
+
+.signup-form span a {
+  color: blue;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.signup-form span a:hover {
+  text-decoration: underline;
+}
+
+/* === ANIMATION === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* === LOGIN CONTAINER === */
+.Login-container {
+  width: 100%;
+  max-width: 420px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* === HEADING === */
+.Login-form h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* === LABELS === */
+.Login-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* === INPUT FIELDS === */
+.Login-form input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.Login-form input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.4);
+}
+
+/* === SUBMIT BUTTON === */
+.Login-form button {
+  width: 100%;
+  background-color: #4a90e2;
+  color: #ffffff;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Login-form button:hover {
+  background-color: #357ab8;
+}
+
+/* === FOOTER TEXT === */
+.Login-form span {
+  display: block;
+  text-align: center;
+  margin-top: 1.2rem;
+  color: #000000;
+  font-size: 0.95rem;
+}
+
+.Login-form span a {
+  color: blue;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.Login-form span a:hover {
+  text-decoration: underline;
+}
+
+/* === ANIMATION === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
